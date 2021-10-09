@@ -1,16 +1,17 @@
 h1 {
- text-decoration: underline;
- text-align: center;
+  text-decoration: underline;
+  text-align: center;
   display: inline;
 }
 
 h2 {   
-color: white;   
-margin: auto; 
-border-style: solid;
-border-color: white;
-border-width: 1em;
-border-radius: 10px;
+   color: white;   
+   margin: auto; 
+   border-style: solid;
+   border-color: white;
+   border-width: 1em;
+   border-radius: 10px;
+   height: 6em;
 }
 
 h3 {
@@ -50,6 +51,8 @@ font-family: 'Roboto', sans-serif;
 .audio{
     font-style: italic;
     font-size: 3cm ;
+    width: 20em;
+    position:relative;
 }
 
 a[href*="linkedin"] {
@@ -57,7 +60,11 @@ a[href*="linkedin"] {
 }
 
 button:hover {
-  color: yellow;
+  color: red;
+}
+
+button:active {
+  color: purple;
 }
 
 .video{
@@ -70,6 +77,8 @@ video, img{
     width:50%;
     margin: auto;
     position:static; 
+    max-width: 20ch;
+    min-width: 5ch;
 }
 
 div.byebox{
@@ -77,7 +86,7 @@ div.byebox{
 }
 
 ul li{
-    background-color: yellow;
+    background-color: hsla(30, 50%, 25%, .3);;
 }
 
 ol > li {
