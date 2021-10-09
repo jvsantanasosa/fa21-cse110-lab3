@@ -47,3 +47,29 @@ header {
 font-family: 'Roboto', sans-serif;
 }
   
+.audio{
+    font-style: italic;
+    font-size: 3cm ;
+}
+
+a[href*="linkedin"] {
+  background-color: silver;
+}
+
+button:hover {
+  color: yellow;
+}
+
+.video{
+    font-weight: bold;
+    font-size: 1in ;
+}
+
+video, img{
+    left:25%; 
+    width:50%;
+    margin: auto;
+    position:static; 
+}
+
+
