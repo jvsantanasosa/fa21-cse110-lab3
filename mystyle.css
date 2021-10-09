@@ -1,6 +1,10 @@
 h2 {   
 color: white;   
 margin-left: 20px; 
+border-style: dotted;
+border-color: white;
+border-width: 1em;
+border-radius: 10% / 50%;
 }
 
 h3 {
@@ -8,6 +12,8 @@ h3 {
   margin: 10px;
 }
 
-
+header {
+  margin: auto
+}
 
   
