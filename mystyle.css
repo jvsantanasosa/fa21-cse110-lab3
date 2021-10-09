@@ -72,4 +72,26 @@ video, img{
     position:static; 
 }
 
+div.byebox{
+    font-size: x-large;
+}
+
+ul li{
+    background-color: yellow;
+}
+
+ol > li {
+    font-size: larger;
+}
+
+div ~ div {
+    font-style: bold;
+}
+
+div + div{
+    color: purple;
+}
+
+
+
 
