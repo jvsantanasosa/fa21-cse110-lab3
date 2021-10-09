@@ -17,6 +17,7 @@ h2 {
 h3 {
   color: #999999; /*Gray-ish color*/
   margin: 10px;
+  display:grid;
 }
 
 header {
@@ -72,6 +73,12 @@ button:active {
     font-size: 1in ;
 }
 
+.survey{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 video, img{
     left:25%; 
     width:50%;
@@ -100,6 +107,14 @@ div ~ div {
 div + div{
     color: purple;
 }
+
+@media (any-hover: hover) {
+  a:hover {
+    background: green;
+  }
+}
+
+
 
 
 
