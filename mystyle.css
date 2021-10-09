@@ -42,4 +42,8 @@ header {
 #Encounter{
  color: blue;
 }
+
+* { 
+font-family: 'Roboto', sans-serif;
+}
   
